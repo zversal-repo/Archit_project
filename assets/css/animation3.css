@@ -1,0 +1,229 @@
+
+*{
+  margin: 0px;
+
+}
+#scrollUp {
+    background-color:   #1f1f1f;
+    border-radius: 0;
+    bottom: 60px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+    color: #fff;
+    font-size: 24px;
+    height: 40px;
+    line-height: 38px;
+    right: 60px;
+    text-align: center;
+    width: 40px;
+    /*-webkit-transition-duration: 500ms;*/
+    transition-duration: 500ms;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#scrollUp:hover{
+  background-color: #fff;
+  color: black;
+  
+}
+.parallax {
+  background-image: url("./../../images/p4.jpg");
+  margin-top: -30px;
+  min-height: 500px; 
+  font-family: Montserrat,sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: white; 
+  font-size: 18px;
+  padding: 8px;
+}
+
+.parallax1{
+  background-image: url("./../../images/p1.jpg");
+  min-height: 500px; 
+  font-family: Montserrat,sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  color: white; 
+  font-size: 18px;
+  padding: 5px;
+}
+.parallax2{
+   background-image: url("./../../images/p2.jpg");
+   font-family: Montserrat,sans-serif;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: white; 
+  font-size: 18px;
+  padding: 5px;
+}
+.parallax3{
+   background-image: url("./../../images/p3.jpg");
+   font-family: Montserrat,sans-serif;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  color: white; 
+  font-size: 18px;
+  padding: 5px;
+}
+.parallax4{
+  background-image: url("./../../images/p5.jpg");
+  min-height: 500px;
+  font-family: Montserrat,sans-serif; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  font-size: 18px;
+  color: white; 
+  padding: 5px;
+  
+}
+.bar{
+  display: inline;
+
+}
+.bar_ul li{
+  display: inline;
+  padding: 9px;
+}
+.bar_ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.bar_ul li a:hover {
+  /*color: grey;*/
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  /*width: 0;
+  height: 5px;
+  top: 20px;
+  position: absolute;*/
+}
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 1px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+.navbar-nav{
+        float: none;
+        text-align: center;
+        min-height: 80px;
+
+        padding-top: 20.5px;
+    padding-bottom: 26.5px;
+        font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: lowercase;
+    }
+     .navbar-nav li{
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        float: none;
+    }
+    .dropdown:hover .dropdown-content{
+        
+        /*position: relative;*/
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+    background-color: #0c0c0c;
+    padding: 30px 0;
+    }
+    .dropdown-menu li a{
+        font-family: 'Montserrat'!important;
+        font-size: 16px;
+        color: #fff;
+    }
+    .navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+    .navbar{
+  height: 90px;
+  z-index:10;
+  border-radius:0;
+ }
+.white{
+    color:#fff;
+}
+
+
+.form-cantrol-submit{
+    width: 15%;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.form-cantrol-submit:hover {
+    color: black;
+    background: white;
+}
+
+.fa fa-search white:hover {
+  background: transparent;
+}
+.nav > ul > li > a:hover > .fa{
+  color: grey;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: black;
+  
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+     background-color: inherit; 
+}
+h1{
+  font-weight: 400;
+  font-size: 50px;
+}
+p{
+  font-size: 19px;
+  font-weight: 100;
+}
