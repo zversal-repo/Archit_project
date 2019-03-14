@@ -31,12 +31,13 @@
 .parallax {
   background-image: url("./../../images/p4.jpg");
   margin-top: -30px;
-  min-height: 500px; 
+  min-height: 730px; 
+  background-position: 50% 87px;
   font-family: Montserrat,sans-serif;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: right;
   color: white; 
   font-size: 18px;
@@ -45,12 +46,12 @@
 
 .parallax1{
   background-image: url("./../../images/p1.jpg");
-  min-height: 500px; 
+  min-height: 730px; 
   font-family: Montserrat,sans-serif;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: left;
   color: white; 
   font-size: 18px;
@@ -59,11 +60,11 @@
 .parallax2{
    background-image: url("./../../images/p2.jpg");
    font-family: Montserrat,sans-serif;
-  min-height: 500px; 
+  min-height: 730px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: right;
   color: white; 
   font-size: 18px;
@@ -72,11 +73,11 @@
 .parallax3{
    background-image: url("./../../images/p3.jpg");
    font-family: Montserrat,sans-serif;
-  min-height: 500px; 
+  min-height: 730px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: left;
   color: white; 
   font-size: 18px;
@@ -84,12 +85,12 @@
 }
 .parallax4{
   background-image: url("./../../images/p5.jpg");
-  min-height: 500px;
+  min-height: 730px;
   font-family: Montserrat,sans-serif; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: right;
   font-size: 18px;
   color: white; 
@@ -227,3 +228,19 @@ p{
   font-size: 19px;
   font-weight: 100;
 }
+
+@media screen and (max-height: 992px) {
+  .parallax, .parallax1, .parallax2, .parallax3, .parallax4 {
+    min-height: 730px; 
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .parallax, .parallax1, .parallax2, .parallax3, .parallax4 {
+   min-height: 530px;
+  }
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-height: 400px) {
+  .parallax, .parallax1, .parallax2, .parallax3, .parallax4 {
+   min-height: 350px;
+  }
