@@ -125,6 +125,7 @@ header .carousel-inner .item{
 }
 .carousel-inner{
   width:100%;
+  height: 100%;
   overflow: hidden;
       
 }
@@ -133,18 +134,19 @@ header .carousel-inner .item{
   -webkit-animation: zoom 20s;
   animation: zoom 20s;
     width: 100%;
+    height: 100%;
 }
 .carousel-caption{
    padding-bottom: 150px;
     text-align: left;
-    padding-left: 190px;
-    top: 28%;
+    padding-left: 8%;
+    top: 20%;
     left: 0;
 }
 .carousel-caption h1{
     font-size: 75px;
     
-    left: 0;
+    left: 0;  
 }
 .carousel-caption h2{
   font-size: 22px;
@@ -185,13 +187,13 @@ transition: .9s, ease-in-out, left;
 }
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 33.33%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -273,6 +275,19 @@ transition: .9s, ease-in-out, left;
   background-color: transparent;
   padding-left: 5px;
 }
+.arrow{
+  position:absolute;
+  background-color: transparent;
+  top:40%;
+}
+  .arrow.left{
+    padding-left:20px;
+  }
+
+  .arrow.right{
+    right:10px;
+  }
+
 .white{
     color:#fff;
 }
@@ -484,7 +499,7 @@ a{
   content: '';
   clear: both;
   display: block;
-  background:;
+  background:black;
 }
 .column1 div {
   position: relative;
@@ -579,7 +594,6 @@ content: '';
 .container {
   position: relative;
   width: 50%;
-  flex: 33.33%;
   padding: 0px;
   overflow: hidden;
 
@@ -649,7 +663,13 @@ content: '';
     height: auto;
 }
 
-
+.owl-outer{
+    width:80%; 
+    height: 300px; 
+    padding-top: 7%; 
+    margin-left:12rem !important;
+    margin-right: 2rem;
+}
 /*demo*/
 
 .container12 {
@@ -707,4 +727,149 @@ content: '';
   font-family: Lato,sans-serif;
   list-style: none;
   color: #efefef;
+}
+
+.live{
+  margin-left: 60%;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+}
+.our-work{
+  font-size: 21px;
+  line-height: 24px; 
+  font-weight: 200; 
+  font-family: 'Lato',sans-serif;
+}
+.our-work-p{
+  font-size: 16px; 
+  font-weight: 100; 
+  line-height: 28px; 
+  font-family: 'Lato',sans-serif;
+}
+/*media queries for crousal font size*/
+@media screen and (max-height: 992px){
+    .carousel-caption h1{
+    font-size: 60px;
+    left: 0;  
+  }
+ 
+  .live{
+  margin-left: 60%;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  }
+  .parallax{
+    min-height:400px;
+  }
+  .our-work{
+  font-size: 14px;
+  font-weight: 200; 
+  font-family: 'Lato',sans-serif;
+ }
+ .our-work-p{
+  font-size: 14px;
+ }
+}
+@media screen and (max-height: 568px),screen and (max-width: 805px){
+    .carousel-caption h1{
+       font-size: 50px;
+       left: 0;  
+  }
+  .carousel-caption{
+
+    padding-top: 0px;
+  }
+  .carousel-caption h2{
+      font-size: 20px;
+      font-family: 'Lato';
+      font-weight: 400;
+  }
+  .form-control-submit {
+     width: 25%;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 50px;
+    margin-top: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: #fff;
+}
+.live{
+  margin-left: 60%;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.parallax{
+  min-height: 300px;
+}
+  .owl-outer{
+    width:90%; 
+    height: 280px; 
+    padding-top: 7%; 
+    margin-left:12rem !important;
+    margin-right: 2rem;
+}
+  .our-work{
+  font-size: 14px;
+  font-weight: 200; 
+  font-family: 'Lato',sans-serif;
+ }
+ .our-work-p{
+  font-size: 14px;
+ }
+}
+
+@media screen and (max-width: 380px){
+  
+  .form-control-submit {
+    width: 32%;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 50px;
+    margin-top: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: #fff;
+ }
+ .our-work-p{
+  font-size: 14px;
+ }
+}
+@media screen and (max-width: 1020px){
+  .arrow{
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .parallax{
+    min-height: 200px;
+  }
+
+}
+@media screen and (max-width: 543px),screen and (max-width: 805px){
+    .carousel-caption h2{
+    display: none;
+}
+.live{
+  margin-left: 60%;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+  .parallax{
+    min-height: 200px;
+  }
+
 }
