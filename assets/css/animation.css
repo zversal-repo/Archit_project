@@ -185,10 +185,10 @@ transition: .9s, ease-in-out, left;
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-.container {
+/*.container {
   position: relative;
   width: 100%;
-}
+}*/
 
 .image {
   opacity: 1;
@@ -450,7 +450,7 @@ a{
 }
 .parallax {
     background-image: url("./../../images/back.jpg");
-    min-height: 500px; 
+    min-height: 400px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -593,10 +593,7 @@ content: '';
 }
 .container {
   position: relative;
-  width: 50%;
-  padding: 0px;
   overflow: hidden;
-
 }
 /*body{
   display: inline-block;
@@ -762,9 +759,7 @@ content: '';
   font-size: 48px;
   font-weight: 600;
   }
-  .parallax{
-    min-height:400px;
-  }
+ 
   .our-work{
   font-size: 14px;
   font-weight: 200; 
@@ -809,13 +804,13 @@ content: '';
 .parallax{
   min-height: 300px;
 }
-  .owl-outer{
+  /* .owl-outer{
     width:90%; 
     height: 280px; 
     padding-top: 7%; 
     margin-left:12rem !important;
     margin-right: 2rem;
-}
+} */
   .our-work{
   font-size: 14px;
   font-weight: 200; 
