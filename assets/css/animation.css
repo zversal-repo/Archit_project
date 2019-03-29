@@ -192,9 +192,6 @@ transition: .9s, ease-in-out, left;
 
 .image {
   opacity: 1;
-  display: block;
-  width: 33.33%;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -424,19 +421,26 @@ a{
       font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     }
-    
+       .bottom1{
+      height: 260px;
+      width: 300px;
+      background: transparent;
+      font-size: 10px;
+      top: 10px;
+      padding-right: 10px;
+      font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    }
     .outer{
       position: relative;
-      height: 400px;
       display: flex;
-      margin-left: 5%;
       overflow: hidden;
       color: white; 
       font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    padding-top: 10px;
-      padding-left: 80px;
-      padding-right: 80px;
+    padding-top: 20px;
+      padding-left: 5%;
+      padding-right: 10%;
     }
     .parallax2{
    background-color:  #0C090A;
@@ -719,7 +723,6 @@ content: '';
 
 }
 .stext{
-  padding-top: 18%;
   padding-left: 10%;
   font-family: Lato,sans-serif;
   list-style: none;
@@ -774,6 +777,7 @@ content: '';
        font-size: 50px;
        left: 0;  
   }
+
   .carousel-caption{
 
     padding-top: 0px;
@@ -856,15 +860,85 @@ content: '';
     .carousel-caption h2{
     display: none;
 }
+.contact-bottom{
+  display: none;
+}
 .live{
-  margin-left: 60%;
-  padding-top: 5%;
+  margin-left: 12%;
+  padding-top: 25%;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
   .parallax{
-    min-height: 200px;
+    min-height: 400px;
   }
+  .outer{
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      color: white; 
+      font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+      padding-left: 25%;
+    }
+    .last-overton{
+      display: none;
+    }
+    .last-overton2{
+font-size: 15px;
+font-weight: 500;
+padding-left: 10px !important;
+padding-bottom: 5px !important;
+font-family: 'Montserrat', sans-serif;
+padding-top: 18px;
+padding-bottom: 14px;
+}
+
 
 }
+/*@media screen and(max-width: 543px){
+    
+.last-overton{
+  font-size: 15px;
+  font-weight: 500; 
+  font-family: 'Montserrat', sans-serif; 
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.last-overton1{
+ padding-left: 29%;
+ padding-bottom: 14px;
+}
+.last-overton2{
+font-size: 15px;
+font-weight: 500; 
+font-family: 'Montserrat', sans-serif;
+padding-top: 14px;
+padding-bottom: 14px;
+}
+
+}*/
+
+.last-overton{
+  font-size: 15px;
+  font-weight: 500; 
+  font-family: 'Montserrat', sans-serif; 
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.last-overton1{
+ padding-top: 33px;
+ padding-bottom: 7px;
+}
+.last-overton2{
+font-size: 15px;
+padding-left: 40px;
+font-weight: 500;
+font-family: 'Montserrat', sans-serif;
+padding-top: 18px;
+padding-bottom: 14px;
+}
+
+
